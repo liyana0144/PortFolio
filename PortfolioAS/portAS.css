@@ -1,0 +1,155 @@
+body{
+    background-color: #83aea6;
+    background-image: url("BG.jpg");
+}
+html 
+{
+    scroll-behavior: smooth;
+}
+img{
+    width: 60%;
+    height: 60%;
+    border-radius:  80px;
+    box-shadow: 10px 10px 5px grey;
+}
+.Mypic{
+    text-align: center;
+    border-radius:  60px;
+    
+
+}
+h3{
+    font-size: 80%;
+    color: rgb(113, 96, 70);
+    font-style:inherit
+}
+h2{
+    font-style: normal;
+    color: rgb(92, 111, 61);
+}
+button{
+    background-color: #9fbfd2;
+    border-radius:  60px;
+    width: 20%;
+    height: 10%;
+
+}
+
+.Mypic>div{
+    
+    padding: 2%;
+    width:auto;
+    margin: 50px;
+    border-radius:  30px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns:10% auto 20% ;
+    grid-gap: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.grid-container > div{
+    border: 8px solid rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: center;
+    background-color:#fff3e0;
+    
+}
+.contact{
+    color: rgb(93, 123, 44);
+    font-size: 20px;
+}
+a{
+    color: rgb(36, 66, 84);
+    font-size: clamp(10px,2.5vw,20px);
+    border-radius:  60px;
+    
+
+}
+hr{
+    width: 220px;
+    height: 2px;
+    background-color:#83aea6;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+#header{
+    grid-column: 1 / span 3;
+    color: rgb(157, 36, 20);
+    font-size: 25pt;
+    text-align: center;
+    /* border: 8px solid; */
+    padding: 5px;
+    border-radius:  60px;
+    
+}
+#Main{
+    grid-column: 1 / span 3;
+    padding-bottom: 15px;
+    border-radius:  60px;
+    font-size: clamp(20px,2.5vw,40px);
+    
+}
+#allproject{
+    grid-column: 1 / span 3;
+    padding-bottom: 15px;
+    border-radius:  60px;
+    font-size: clamp(20px,2.5vw,40px);
+}
+#allas{
+    grid-column: 1 / span 3;
+    padding-bottom: 20px;
+    border-radius:  60px;
+    font-size: clamp(20px,2.5vw,40px);
+}
+#contact{
+    grid-column: 1 / span 3;
+    padding-bottom: 20px;
+    border-radius:  60px;
+    font-size: clamp(20px,2.5vw,40px);
+}
+h4{
+    font-size: 60%;
+    color:rgb(157, 36, 20);
+}
+
+.tap{
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #9fbfd2;
+    
+}
+ul{
+    text-align: center;
+    background-color: #9fbfd2;
+    border: 8px solid rgb(255, 255, 255);
+    height: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 1px;
+    padding-left: 1px;
+  
+}li{
+    font-size: clamp(10px,2.5vw,25px);
+    margin-left: 5px;
+    margin-right: 5px;
+    color: rgb(92, 79, 79);
+}
+  
+.Social a{
+    font-size: 50px;
+}
+#REF{
+    grid-column: 1 / span 3;
+    padding-bottom: 20px;
+    border-radius:  60px;
+    font-size: clamp(20px,2.5vw,40px);
+  
+}
